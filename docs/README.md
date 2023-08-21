@@ -4,12 +4,12 @@ This session is part of [**Biodiversity Genomics Academy 2023**](https://BGA23.o
 
 ## Session Leader(s)
 
-Leanne Haggerty
-Ensembl Genome Annotation Project Leader
+Leanne Haggerty  
+Ensembl Genome Annotation Project Leader  
 EMBL-EBI
 
-Jose Maria Gonzalez Perez-Silva
-Bioinformatician
+Jose Maria Gonzalez Perez-Silva  
+Bioinformatician  
 EMBL-EBI
 
 ## Description
