@@ -9,6 +9,9 @@ tasks:
 
     source ${HOME}/.bashrc
 
+    mamba create -n annotation -c bioconda star scallop samtools -y
+    mamba activate annotation
+
 vscode:
   extensions:
     - anwar.papyrus-pdf
