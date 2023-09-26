@@ -23,6 +23,10 @@ By the end of this part you will have:
 3. Gained a picture of the quality measures of existing annotations
 4. Discussed the future of genome annotation methodologies"
 
+Slides for this session can be found [here](https://github.com/BGAcademy23/ensembl-annotation/Annotating_Genomes_the_Ensembl_Way.pdf)
+A list of useful tools for annotating genomes can be found [here](https://github.com/BGAcademy23/ensembl-annotation/Tools_for_Annotation.pdf)
+
+
 ### Part 2: Hands on - From RNAseq reads to gene models
 
 By the end of this part you will be able to:
