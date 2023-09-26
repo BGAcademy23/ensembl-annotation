@@ -1,16 +1,14 @@
 image: gitpod/workspace-base
 
 tasks:
-- name: install mamba
-  command: |
+- name: install mamba, get data
+  init: |
     curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
     bash Mambaforge-$(uname)-$(uname -m).sh -b -p /workspace/conda && rm Mambaforge-$(uname)-$(uname -m).sh
+
     /workspace/conda/bin/mamba init bash
-
     source ${HOME}/.bashrc
-
     mamba create -n annotation -c bioconda star scallop samtools -y
-    mamba activate annotation
 
     mkdir data; cd data
     wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/2cell_chr12_R1.fastq
@@ -18,8 +16,34 @@ tasks:
     wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/6hpf_chr12_R1.fastq
     wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/6hpf_chr12_R2.fastq
 
+  command: |
+    /workspace/conda/bin/mamba init bash
+    source ${HOME}/.bashrc
+    mamba activate annotation
+
+    cd /workspace
+    clear
+
 vscode:
   extensions:
     - anwar.papyrus-pdf
 
 workspaceLocation: "/workspace"
+
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+    # enable for all branches in this repo (defaults to false)
+    branches: true
+    # enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+    # enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+    addComment: true
+    # add a "Review in Gitpod" button to pull requests (defaults to false)
+    addBadge: false
+    # add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: prebuilt-in-gitpod
+
