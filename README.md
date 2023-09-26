@@ -25,7 +25,7 @@ By the end of this part you will have:
 
 Slides for this session can be found [here](https://github.com/BGAcademy23/ensembl-annotation/blob/main/Annotating_Genomes_the_Ensembl_Way.pdf).
 
-A list of useful tools for annotating genomes can be found [here](https://github.com/BGAcademy23/ensembl-annotation/blob/main/Tools_for_Annotation.pdf).
+A list of useful tools for annotating genomes can be found [here](https://github.com/BGAcademy23/ensembl-annotation/blob/main/Tools_for_Annotation.pdf) (download this file to access hyperlinks to tools).
 
 
 ### Part 2: Hands on - From RNAseq reads to gene models
