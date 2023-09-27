@@ -10,11 +10,7 @@ tasks:
     source ${HOME}/.bashrc
     mamba create -n annotation -c bioconda star scallop samtools -y
 
-    mkdir data; cd data
-    wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/2cell_chr12_R1.fastq
-    wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/2cell_chr12_R2.fastq
-    wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/6hpf_chr12_R1.fastq
-    wget https://ftp.ebi.ac.uk/pub/training/2023/Introduction-to-RNA-Seq-and-functional-interpretation-2023/annotating-the-genome/data/6hpf_chr12_R2.fastq
+    gzip -dr /workspace/ensembl-annotation/Annotating_the_genome/Fastq
 
   command: |
     /workspace/conda/bin/mamba init bash
