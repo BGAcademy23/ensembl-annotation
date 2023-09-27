@@ -1,0 +1,41 @@
+STAR version=2.7.8a
+STAR compilation time,server,dir=Thu Apr 22 09:07:46 BST 2021 :/hps/software/users/ensembl/ensw/HOMEBREW_TEMP/star-aligner-20210422-882263-aw1twb/STAR-2.7.8a/source
+##### Command Line:
+STAR --runMode genomeGenerate --genomeDir ./Annotating_the_genome/Genome/ --genomeFastaFiles ./Annotating_the_genome/Genome/Danio_rerio.GRCz11.dna.chromosome.12.fa --outFileNamePrefix ./Annotating_the_genome/Genome/chr12_GRCz11
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 ./Annotating_the_genome/Genome/chr12_GRCz11
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     ./Annotating_the_genome/Genome/     ~RE-DEFINED
+genomeFastaFiles              ./Annotating_the_genome/Genome/Danio_rerio.GRCz11.dna.chromosome.12.fa        ~RE-DEFINED
+outFileNamePrefix             ./Annotating_the_genome/Genome/chr12_GRCz11     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+genomeDir                         ./Annotating_the_genome/Genome/
+genomeFastaFiles                  ./Annotating_the_genome/Genome/Danio_rerio.GRCz11.dna.chromosome.12.fa   
+outFileNamePrefix                 ./Annotating_the_genome/Genome/chr12_GRCz11
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --genomeDir ./Annotating_the_genome/Genome/   --genomeFastaFiles ./Annotating_the_genome/Genome/Danio_rerio.GRCz11.dna.chromosome.12.fa      --outFileNamePrefix ./Annotating_the_genome/Genome/chr12_GRCz11
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: ./Annotating_the_genome/Genome/
+Sep 05 10:22:28 ... starting to generate Genome files
+./Annotating_the_genome/Genome/Danio_rerio.GRCz11.dna.chromosome.12.fa : chr # 0  "12" chrStart: 0
+Chromosome sequence lengths: 
+12	49182954
+Genome sequence total length = 49182954
+Genome size with padding = 49283072
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=49182954, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 11
+Estimated genome size with padding and SJs: total=genome+SJ=250283072 = 49283072 + 201000000
+GstrandBit=32
+Number of SA indices: 98183766
+Sep 05 10:22:30 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 18540860192 bytes
+Sep 05 10:22:30 ... sorting Suffix Array chunks and saving them to disk...
