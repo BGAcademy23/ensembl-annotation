@@ -10,7 +10,7 @@ Once the reads have been aligned you can assemble transcript models using Scallo
 
 We are going to use "terminal" application to execute STAR, Scallop and samtools commands.
 
-Command-line actions usually start with 4 spaces ("    "). Please note that many commands are wrapped across more than one line.
+Command-line actions usually start with 4 spaces ("    ") and should be rendered as code blocks in GitHub markdown preview, which you can copy using the "copy" icon top right of each block. Please note that many commands are wrapped across more than one line.
 
 There are questions throughout this document, indicated with a "->", try to answer these, they should help you understand the process.
 
@@ -130,7 +130,7 @@ We have chosen ENSDARG00000055381 as a good example of a chr12 gene with differe
 
 To load the alignments from the Bam files:
 
-* Go to the browser: [www.ensembl.org/](www.ensembl.org/)
+* Go to the browser: [www.ensembl.org](https://www.ensembl.org/)
 * Enter ENSDARG00000055381 into the search box to take you to the gene view page, it is a gene called "bambia". We want to go on the Location view, so please select "Region in Detail"
 * If you are on the Gene view, click on the Location tab at the top left hand side of the page to take you to the view of the region on the chromosome.
 * Now we can load our BAM files.
