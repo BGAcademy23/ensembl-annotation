@@ -140,7 +140,7 @@ To load the alignments from the Bam files:
 * Add the data using the URL of the files:
   [https://ftp.ebi.ac.uk/pub/databases/ensembl/ereboperezsilva/bga23/results/BAM/2cellAligned.sortedByCoord.out.bam](https://ftp.ebi.ac.uk/pub/databases/ensembl/ereboperezsilva/bga23/results/BAM/2cellAligned.sortedByCoord.out.bam)
 * Then do the same for the 6hpf file
-  [https://www.ebi.ac.uk/~leanne/Intro2RNA_Mar2021/Bam/6hpfAligned.sortedByCoord.out.bam](https://ftp.ebi.ac.uk/pub/databases/ensembl/ereboperezsilva/bga23/results/BAM/6hpfAligned.sortedByCoord.out.bam)
+  [https://ftp.ebi.ac.uk/pub/databases/ensembl/ereboperezsilva/bga23/results/BAM/6hpfAligned.sortedByCoord.out.bam](https://ftp.ebi.ac.uk/pub/databases/ensembl/ereboperezsilva/bga23/results/BAM/6hpfAligned.sortedByCoord.out.bam)
 * Click on the tick in the top right hand corner of the "Configure this page" window to return to the region view browser.
 * Once you have attached the remote files you should be able to see them in the region view browser, if they do not show up you may need to turn them on by going to "Configure this page" -> "Your data" and set it to “Normal”.
 
