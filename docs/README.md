@@ -27,6 +27,7 @@ Slides for this session can be found [here](https://github.com/BGAcademy23/ensem
 
 A list of useful tools for annotating genomes can be found [here](https://github.com/BGAcademy23/ensembl-annotation/blob/main/Tools_for_Annotation.pdf) (download this file to access hyperlinks to tools).
 
+Post-session additional notes can be found [here](https://github.com/BGAcademy23/ensembl-annotation/blob/main/Post_session_notes.pdf)
 
 ### Part 2: Hands on - From RNAseq reads to gene models
 
